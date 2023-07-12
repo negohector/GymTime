@@ -1,0 +1,319 @@
+body {
+    background-color: #000000;
+    color: #FFFFFF;
+    overflow-x: hidden;
+}
+
+#cabeca_site h3 {
+    background-color: #FFFFFF;
+    color: #000000;
+    text-align: center;
+}
+
+.imagem {
+    width: 100vw;
+    height: 20vh;
+}
+
+.imagem img {
+    width: 100%;
+    height: 100%;
+}
+
+#menu-horizontal {
+    background-color: #710100;
+    display: flex;
+    justify-content: center;
+}
+
+#menu-horizontal ul {
+    list-style-type: none;
+    padding: 0;
+    background-color: #710100;
+}
+
+#menu-horizontal ul li {
+    display: inline;
+    font-size: larger;
+    font-weight: bold;
+}
+
+#menu-horizontal ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px;
+    display: inline-block;
+    transition: background .4s;
+}
+
+#menu-horizontal ul li a:hover {
+    color: #000000;
+    text-decoration: underline;
+    background-color: #ffffff;
+}
+
+#apresentacao_1 {
+    color: #000000;
+    background-color: #FFFFFF;
+    text-align: center;
+    padding: 10px;
+}
+
+#apresentacao_2 {
+    color: #FFFFFF;
+    background-color: #710100;
+    text-align: center;
+    padding: 10px;
+}
+
+#apresentacao_3 {
+    color: #000000;
+    background-color: #FFFFFF;
+    text-align: center;
+    padding: 10px;
+}
+
+#apresentacao_4 {
+    color: #000000;
+    background-color: #FFFFFF;
+    text-align: center;
+    padding: 10px;
+}
+
+#peitoral_superior {
+    min-height: 10em;
+    width: 90vw;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+h1 {
+    color: #FFFFFF;
+    text-align: center;
+    background-color: #710100;
+    font-weight: 900;
+    width: 60vw;
+    padding: 50px;
+    border-radius: 10px;
+}
+
+.container {
+    background-color: #ffffff;
+    padding: 10px;
+}
+
+.exercícios {
+    display: flex;
+    flex-direction: row;
+}
+
+.texto_musc {
+    color: #710100;
+    text-align: center;
+    background-color: #FFFFFF;
+    font-weight: 900;
+    padding: 80px;
+    height: 10vh;
+}
+
+.exercícios {
+    padding: 10px;
+}
+
+.exercícios img {
+    width: 30vw;
+    height: 35vh;
+}
+
+.exercícios iframe {
+    width: 28vw;
+    border-radius: 10px;
+}
+
+#crucifixo_incli img {
+    height: 35vh;
+    width: 36vw;
+}
+
+#peitoral_medio {
+    min-height: 10em;
+    width: 90vw;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+footer {
+    text-align: center;
+    background-color: #710100;
+}
+
+@media(max-width:990px) {
+    body {
+        width: 100vw;
+        height: 100vh;
+    }
+
+    .imagem {
+        width: 100vw;
+        height: 10vh;
+    }
+
+    .imagem img {
+        width: 100%;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 100%;
+    }
+
+    #cabeca-site h3 {
+        background-color: #ffffff;
+        color: #000000;
+        font-size: small;
+    }
+
+    #menu-horizontal {
+        background-color: #710100;
+        display: flex;
+        justify-content: center;
+    }
+
+    #menu-horizontal ul {
+        list-style-type: none;
+        padding: 0;
+        background-color: #710100;
+    }
+
+    #menu-horizontal ul li {
+        display: inline;
+        font-size: larger;
+        font-weight: bold;
+    }
+
+    #menu-horizontal ul li a {
+        color: #ffffff;
+        text-decoration: none;
+        padding: 10px;
+        display: inline-block;
+        transition: background .4s;
+    }
+
+    #menu-horizontal ul li a:hover {
+        color: #000000;
+        text-decoration: underline;
+        background-color: #ffffff;
+    }
+    h1 {
+        color: #FFFFFF;
+        text-align: center;
+        background-color: #710100;
+        font-weight: 900;
+        width: 60vw;
+        padding: 50px;
+        border-radius: 10px;
+    }
+    .texto_musc {
+        color: #710100;
+        text-align: center;
+        background-color: #FFFFFF;
+        padding: 20px;
+    }
+    .exercícios {
+        padding: 10px;
+    }
+    #crucifixo_incli img {
+        height: 25vh;
+        width: 26vw;
+    }
+    .exercícios img {
+        width: 25vw;
+        height: 25vh;
+    }
+    
+    .exercícios iframe {
+        width: 30vw;
+        border-radius: 10px;
+    }
+}
+@media(max-width:600px){
+    body{
+        width: 100vw;
+        height: 100vh;
+    }
+    .imagem{
+        width: 100vw;
+        height: 10vh;
+    }
+    .imagem img{
+        width: 100%;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 100%;
+    }
+    #menu-horizontal{
+        font-size: small;
+    }
+    #apresentacao_1 {
+        color: #000000;
+        background-color: #FFFFFF;
+        text-align: center;
+        padding: 10px;
+    }
+    
+    #apresentacao_2 {
+        color: #FFFFFF;
+        background-color: #710100;
+        text-align: center;
+        font-size: small;
+        padding: 10px;
+    }
+    
+    #apresentacao_3 {
+        color: #000000;
+        background-color: #FFFFFF;
+        text-align: center;
+        font-size: small;
+        padding: 10px;
+    }
+    
+    #apresentacao_4 {
+        color: #000000;
+        background-color: #FFFFFF;
+        text-align: center;
+        font-size: small;
+        padding: 10px;
+    }
+    h1 {
+        color: #FFFFFF;
+        text-align: center;
+        background-color: #710100;
+        font-weight: 900;
+        width: 80vw;
+        padding: 50px;
+        border-radius: 10px;
+    }
+    .texto_musc {
+        color: #710100;
+        text-align: center;
+        background-color: #FFFFFF;
+        padding: 10px;
+    }
+    .exercícios {
+        display: block;
+    }
+    #crucifixo_incli img {
+        height: 25vh;
+        width: 25vw;
+    }
+    .exercícios img {
+        width: 75vw;
+        height: 20vh;
+    }
+    
+    .exercícios iframe {
+        width: 75vw;
+        height: 30vh;
+        border-radius: 10px;
+    }
+}
